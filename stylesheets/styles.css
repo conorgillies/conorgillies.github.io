@@ -13,6 +13,7 @@ h1 {
 
 header h1 {
   font-size: 13vmin;
+  max-width: 20em;
   text-align: center;
 }
 
@@ -47,12 +48,12 @@ ol li {
   margin-bottom: 5%;
   padding: 2em;
   width: 80%;
-  max-width: 60em;
+  max-width: 20em;
   background-color: #fff;
 }
 
 .content {
-  max-width: 40em;
+  max-width: 20em;
 }
 
 .description {
@@ -103,7 +104,7 @@ footer {
   margin-bottom: 5%;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 400px) {
 
    .main_image {
     width: 100%;
