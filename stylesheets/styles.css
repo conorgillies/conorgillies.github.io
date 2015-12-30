@@ -4,17 +4,13 @@ body {
   max-width: 400px;
   margin-left: auto ;
   margin-right: auto ;
+  vertical-align: middle
 }
 
 html {
   text-align: center;
   max-width: 400px;
-}
-
-div#wrapper {
-  width: 400px ;
-  margin-left: auto ;
-  margin-right: auto ;
+  vertical-align: middle
 }
 
 h1 {
