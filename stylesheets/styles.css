@@ -1,36 +1,25 @@
-body {
-  text-align: center;
+html {
   width: auto;
-  max-width: 400px;
+  vertical-align: middle
   margin-left: auto ;
   margin-right: auto ;
-  vertical-align: middle
 }
 
-html {
-  text-align: center;
-  max-width: 400px;
+body {
+  width: 400px;
   vertical-align: middle
 }
 
 h1 {
   text-align: center;
   font-size: 1em;
-  max-width: 380px;
+  max-width: 360px;
 }
 
 header h1 {
   font-size: 12vmin;
-  max-width: 380px;
+  max-width: 360px;
   text-align: center;
-}
-
-audio {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
 }
 
 ol li {
