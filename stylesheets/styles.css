@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: linear-gradient(0deg, #f7e9e0, #f5e9e2)
+  background: linear-gradient(0deg, #f7e9e0, #f5e9e2);
   width: 100%;
   max-width: 400px;
   vertical-align: middle;
