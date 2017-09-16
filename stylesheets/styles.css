@@ -4,16 +4,17 @@ html {
 }
 
 body {
-  background: linear-gradient(0deg, #f7e9e0, #f5e9e2);
+  background: linear-gradient(0deg, red, blue);
   width: 100%;
-  max-width: 400px;
-  vertical-align: middle;
-  margin-left: auto;
-  margin-right: auto;
+  text-align:justify;
+  margin-left: 0;
+  margin-right: 0;
+  color: blue;
+  font-size: 20em;
 }
 
 h1 {
-  text-align: center;
+  text-decoration: underline;
 }
 
 ol li {
