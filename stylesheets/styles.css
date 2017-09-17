@@ -31,6 +31,7 @@ img {
 
 ul {
     font-style: italic;
+    font-size: 5vw;
 }
 
 a:link    {color:blue; background-color:transparent; text-decoration:none}
