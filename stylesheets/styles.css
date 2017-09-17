@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: linear-gradient(0deg, blue, grey);
+  background: linear-gradient(0deg, teal, grey);
   width: 100%;
   text-align:justify;
   margin: 0 !important;
