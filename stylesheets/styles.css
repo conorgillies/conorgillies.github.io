@@ -30,6 +30,7 @@ img {
 }
 
 ul {
+    list-style-type: square;
     font-style: italic;
     font-size: 5vw;
 }
