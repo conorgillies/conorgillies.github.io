@@ -13,13 +13,13 @@ body {
 
 h1 {
   text-decoration: underline;
-  font-size: 10vw;
-}
-h2 {
   font-size: 8vw;
 }
-h3 {
+h2 {
   font-size: 7vw;
+}
+h3 {
+  font-size: 6vw;
 }
 p {
   font-size: 5vw;
@@ -37,7 +37,6 @@ ul {
 
 input {
     width: 100%;
-    border: 2px solid red;
 }
 
 input:focus {
