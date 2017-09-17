@@ -3,13 +3,13 @@ html {
 }
 
 body {
-  background: linear-gradient(0deg, red, blue);
+  background: linear-gradient(0deg, grey, blue);
   width: 100%;
   text-align:justify;
   margin-left: 0;
   margin-right: 0;
-  color: green;
-  font-size: 10em;
+  color: white;
+  font-size: 8em;
 }
 
 h1 {
@@ -21,6 +21,9 @@ ol li {
   text-align: left;
 }
 
+p {
+  width: 100%;
+}
 a:link    {color:blue; background-color:transparent; text-decoration:none}
 a:visited {color:purple; background-color:transparent; text-decoration:none}
 a:hover   {color:blue; background-color:yellow; text-decoration:underline}
