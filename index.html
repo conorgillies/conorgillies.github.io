@@ -38,9 +38,22 @@
         
 <form action="https://formspree.io/conor.gillies@gmail.com"
       method="POST">
-    <input type="text" name="name">
+  <fieldset>
+    <legend>Your information:</legend>
+    Name:<br>
+    <input type="text" name="name" placeholder="Name" required>
+    Will you join us?<br>
+    <input type="text" name="rsvp" placeholder="Yes or no" required>
+    Where do you plan to stay?<br>
+    <input type="text" name="place" placeholder="Monhegan House">
+    How long do you plan to stay?<br>
+    <input type="text" name="duration" placeholder="Both Friday and Saturday night">
+    Do you have any dietary restrictions?<br>
+    <input type="text" name="diet" placeholder="I am a vegetarian">
+    What is the best email to reach you by?<br>
     <input type="email" name="_replyto">
     <input type="submit" value="Send">
+  </fieldset>
 </form>     
         
 <h3>Contact</h3>
