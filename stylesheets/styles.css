@@ -48,8 +48,10 @@ input:focus {
     background-color: lightblue;
 }
 
-input:submit {
+input[type=button], input[type=submit] {
     font-size: 5vw;
+    border: 2px solid black;
+    cursor: pointer;
 }
 
 a:link    {color:blue; background-color:transparent; text-decoration:none}
