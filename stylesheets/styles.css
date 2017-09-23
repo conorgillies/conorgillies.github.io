@@ -2,6 +2,10 @@ html {
   width: auto;
 }
 
+@font-face {
+  font-family: "Lucida Calligraphy";
+  src: url("stylesheets/fonts/Lucida-Calligraphy.ttf");
+
 body {
   background: linear-gradient(0deg, black, red);
   width: 100%;
@@ -9,6 +13,7 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   color: yellow;
+  font-family: "Lucida Calligraphy", serif;
 }
 
 h1 {
