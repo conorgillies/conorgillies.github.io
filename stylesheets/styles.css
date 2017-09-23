@@ -5,7 +5,8 @@ html {
 @font-face {
   font-family: "Lucida Calligraphy";
   src: url("conorgillies.github.io/stylesheets/fonts/Lucida-Calligraphy.ttf");
-
+}
+  
 body {
   background: linear-gradient(0deg, black, red);
   width: 100%;
