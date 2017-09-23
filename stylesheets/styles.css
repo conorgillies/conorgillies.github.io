@@ -4,7 +4,7 @@ html {
 
 @font-face {
   font-family: "Lucida Calligraphy";
-  src: url("stylesheets/fonts/Lucida-Calligraphy.ttf");
+  src: url("conorgillies.github.io/stylesheets/fonts/Lucida-Calligraphy.ttf");
 
 body {
   background: linear-gradient(0deg, black, red);
@@ -26,17 +26,19 @@ h2 {
 h3 {
   font-size: 6vw;
 }
-p {
+h4 {
   font-size: 5vw;
+}
+p {
+  font-size: 4vw;
 }
 
 img {
-    width: 100vw;
+    width: 80vw;
 }
 
 ul {
     list-style-type: square;
-    font-style: italic;
     font-size: 5vw;
 }
 
