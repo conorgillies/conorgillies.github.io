@@ -3,12 +3,12 @@ html {
 }
 
 body {
-  background: linear-gradient(0deg, teal, grey);
+  background: linear-gradient(0deg, black, red);
   width: 100%;
   text-align:justify;
   margin: 0 !important;
   padding: 0 !important;
-  color: white;
+  color: yellow;
 }
 
 h1 {
