@@ -18,6 +18,18 @@ body {
   font-family: "Lucida Calligraphy", serif;
 }
 
+.topnav {
+    background-color: yellow;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vw;
+}
+
 h1 {
   text-align: center;
   text-decoration: underline;
