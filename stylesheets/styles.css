@@ -59,6 +59,7 @@ img {
 
 figcaption { 
     display: block;
+    font-family: sans-serif;
     font-size: 2vw;
     text-align: center;
     margin-left: auto;
