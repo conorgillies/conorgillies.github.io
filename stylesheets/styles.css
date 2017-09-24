@@ -22,6 +22,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
   font-size: 10vw;
+  margin: 0;
 }
 h2 {
   font-size: 7vw;
@@ -30,6 +31,7 @@ h3 {
   font-family: sans-serif;
   text-align: center;
   font-size: 4vw;
+  margin: 0;
 }
 h4 {
   font-family: sans-serif;
