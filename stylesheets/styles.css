@@ -50,6 +50,14 @@ img {
     width: 20vw;
 }
 
+figcaption { 
+    display: block;
+    font-size: 3vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul {
     text-align:left;
     list-style-type: square;
