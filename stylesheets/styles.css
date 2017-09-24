@@ -11,7 +11,8 @@ body {
   background: linear-gradient(0deg, black, red);
   width: 90vw;
   text-align:justify;
-  margin: 0 !important;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 !important;
   color: yellow;
   font-family: "Lucida Calligraphy", serif;
@@ -37,8 +38,6 @@ p {
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 80vw;
 }
 
