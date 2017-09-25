@@ -73,6 +73,10 @@ img {
     width: 20vw;
 }
 
+.dems {
+    max-width: 50vw;
+}
+
 figcaption { 
     display: block;
     font-family: sans-serif;
