@@ -18,11 +18,11 @@ body {
   font-family: "Lucida Calligraphy", serif;
 }
 
-.topnav {
+.menu {
     background-color: yellow;
     overflow: hidden;
 }
-.topnav a {
+.menu a {
     float: left;
     color: red;
     text-align: center;
