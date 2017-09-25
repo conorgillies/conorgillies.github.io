@@ -64,10 +64,10 @@ p {
 }
 
 img {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
+    text-align: center;
     width: 60vw;
+    display: block;
+    margin: auto;
 }
 
 .hammerandsickle {
