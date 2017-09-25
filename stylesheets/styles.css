@@ -19,9 +19,7 @@ body {
 }
 
 .menu {
-    background-color: black;
     overflow: hidden;
-    width: 80vw;
 }
 .menu a {
     float: left;
