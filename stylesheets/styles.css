@@ -78,7 +78,8 @@ img {
 }
 
 .dems {
-    max-width: 50vw;
+    width: 50%;
+    float: right;
 }
 
 figcaption { 
