@@ -16,67 +16,66 @@ body {
   color: black;
   font-family: serif;
 }
+.radio-tabs .state {
+    position: absolute;
+    left: -10000px;
+}
+#starks:focus ~ .tabs #starks-tab,
+#lannisters:focus ~ .tabs #lannisters-tab,
+#targaryens:focus ~ .tabs #targaryens-tab {
+    box-shadow: 0 0 3px 3px rgba(0,127,255,.5);
+}
 
-.menu {
+.radio-tabs .tab {
     display: inline-block;
-    overflow: hidden;
+    padding: .5em;
+    vertical-align: top;
+    background-color: #eee;
+    cursor: hand;
+    cursor: pointer;
+}
+.radio-tabs .tab:hover {
+    background-color: #fff;
+}
+#starks:checked ~ .tabs #starks-tab,
+#lannisters:checked ~ .tabs #lannisters-tab,
+#targaryens:checked ~ .tabs #targaryens-tab {
+    background-color: #fff;
+    border-bottom: .3em solid #fff;
+    cursor: default;
 }
 
-.menu a {
-    float: left;
-    color: red;
-    text-align: center;
-    text-decoration: none;
+.radio-tabs .panels {
+    background-color: #fff;
+    padding: .5em;
 }
-
-.tabbed > input{
-  display : none;
+.radio-tabs .panel {
+    display: none;
 }
-
-.tabbed > input:not(:checked) + section > div{
-  display : none;
-}
-
-.tabbed > section > h1{
-  float : left;
-}
-
-.tabbed > section > div{
-  float  : right;
-  width  : 100%;
-  margin : 2.5em 0 0 -100%;
-}
-
-.tabbed{
-  float : left;
-  width : 100%;
-}
-
-.tabbed > section > h1 > label{
-  cursor              : pointer;
-     -moz-user-select : none;
-      -ms-user-select : none;
-  -webkit-user-select : none;
+#starks:checked ~ .panels #starks-panel,
+#lannisters:checked ~ .panels #lannisters-panel,
+#targaryens:checked ~ .panels #targaryens-panel {
+    display: block;
 }
 
 h1 {
   text-align: center;
   text-decoration: underline;
-  font-size: 9vw;
+  font-size: 5vw;
   margin: 0;
 }
 h2 {
-  font-size: 6vw;
+  font-size: 4vw;
 }
 h3 {
   font-family: sans-serif;
   text-align: center;
-  font-size: 4vw;
+  font-size: 3vw;
   margin: 0;
 }
 h4 {
   font-family: sans-serif;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: normal;
 }
 p {
@@ -89,18 +88,6 @@ img {
     width: 60vw;
     display: block;
     margin: auto;
-}
-
-.hammerandsickle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20vw;
-}
-
-.dems {
-    width: 30%;
-    float: right;
 }
 
 figcaption { 
@@ -124,25 +111,6 @@ ol {
     font-size: 4vw;
 }
   
-form {
-    font-family: sans-serif;
-    font-size: 5vw;
-}
-
-input {
-    font-size: 5vw;
-    width: 100%;
-}
-
-input:focus {
-    background-color: lightblue;
-}
-
-input[type=button], input[type=submit] {
-    font-size: 5vw;
-    border: 2px solid black;
-    cursor: pointer;
-}
 
 a:link    {color:blue; background-color:transparent; text-decoration:none}
 a:visited {color:blue; background-color:transparent; text-decoration:none}
