@@ -13,29 +13,20 @@ body {
   text-align: centered;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 !important;
-  color: yellow;
-  font-family: "Lucida Calligraphy", serif;
+  color: black;
+  font-family: serif;
 }
 
 .menu {
     display: inline-block;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    position: fixed;
-    text-align: center;
     overflow: hidden;
-    top: 0px;
-    left: 0px;
-    margin-left: -5vw;
 }
+
 .menu a {
     float: left;
     color: red;
     text-align: center;
     text-decoration: none;
-    font-size: 2vw;
-    font-family: sans-serif;
 }
 
 .tabbed > input{
