@@ -15,42 +15,37 @@
         <figcaption><i>Marxism will give health to the sick</i>, Frida Kahlo (1954).</figcaption>
         </figure>
     </header>
-    
-<div class="menu" id="menu">
-  <a href="#episodes">Episodes</a>
-  <a href="#about">About</a>
-</div>
-   
+
+
+<div class="radio-tabs">
   
-<div class="tabbed">
+    <input class="state" type="radio" title="Episodes" name="houses-state" id="starks" checked />
+    <input class="state" type="radio" title="About" name="houses-state" id="lannisters" />
 
-  <!-- first panel -->
+    <div class="tabs">
+        <label for="starks" id="starks-tab" class="tab">Starks</label>
+        <label for="lannisters" id="lannisters-tab" class="tab">Lannisters</label>
+    </div>
 
-  <input name="tabbed" id="tabbed1" type="radio" checked>
-  <section>
-  <h1>
-     <label for="tabbed1">Episodes</label>
-  </h1>
-  <div>
-    <p>Test test episode content.</p>
-  </div>
-</section>
-  </div>
+    <div class="panels">
+        <ul id="starks-panel" class="panel active">
+            <li>Eddard</li>
+            <li>Catelyn</li>
+            <li>Robb</li>
+            <li>Sansa</li>
+            <li>Brandon</li>
+            <li>Arya</li>
+            <li>Rickon</li>
+        </ul>
+        <ul id="lannisters-panel" class="panel">
+            <li>Tywin</li>
+            <li>Cersei</li>
+            <li>Jamie</li>
+            <li>Tyrion</li>
+        </ul>
+    </div>
 
-  <!-- second panel -->
-
-  <input name="tabbed" id="tabbed2" type="radio">
-    
-  <section>
-  <h1>
-    <label for="tabbed2">About</label>
-  </h1>
-  <div>
-    <p>Test test this is about us.</p>
-  </div>
-  </section>
-    
-  </div>
+</div>
 
 
 <footer>
