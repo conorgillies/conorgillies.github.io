@@ -20,9 +20,8 @@ body {
     position: absolute;
     left: -10000px;
 }
-#starks:focus ~ .tabs #starks-tab,
-#lannisters:focus ~ .tabs #lannisters-tab,
-#targaryens:focus ~ .tabs #targaryens-tab {
+#episodes:focus ~ .tabs #episodes-tab,
+#about:focus ~ .tabs #about-tab {
     box-shadow: 0 0 3px 3px rgba(0,127,255,.5);
 }
 
@@ -37,9 +36,8 @@ body {
 .radio-tabs .tab:hover {
     background-color: #fff;
 }
-#starks:checked ~ .tabs #starks-tab,
-#lannisters:checked ~ .tabs #lannisters-tab,
-#targaryens:checked ~ .tabs #targaryens-tab {
+#episodes:checked ~ .tabs #episodes-tab,
+#about:checked ~ .tabs #about-tab {
     background-color: #fff;
     border-bottom: .3em solid #fff;
     cursor: default;
@@ -52,9 +50,8 @@ body {
 .radio-tabs .panel {
     display: none;
 }
-#starks:checked ~ .panels #starks-panel,
-#lannisters:checked ~ .panels #lannisters-panel,
-#targaryens:checked ~ .panels #targaryens-panel {
+#episodes:checked ~ .panels #episodes-panel,
+#about:checked ~ .panels #about-panel {
     display: block;
 }
 
@@ -85,7 +82,6 @@ p {
 
 img {
     text-align: center;
-    width: 60vw;
     display: block;
     margin: auto;
 }
