@@ -6,11 +6,11 @@ html {
   font-family: "Lucida Calligraphy";
   src: url("stylesheets/fonts/Lucida-Calligraphy.ttf");
 }
-  
+
 body {
-  background: linear-gradient(0deg, black, red);
-  width: 90vw;
-  text-align:justify;
+  background: red;
+  width: 650px;
+  text-align: centered;
   margin-left: auto;
   margin-right: auto;
   padding: 0 !important;
@@ -36,6 +36,36 @@ body {
     text-decoration: none;
     font-size: 2vw;
     font-family: sans-serif;
+}
+
+.tabbed > input{
+  display : none;
+}
+
+.tabbed > input:not(:checked) + section > div{
+  display : none;
+}
+
+.tabbed > section > h1{
+  float : left;
+}
+
+.tabbed > section > div{
+  float  : right;
+  width  : 100%;
+  margin : 2.5em 0 0 -100%;
+}
+
+.tabbed{
+  float : left;
+  width : 100%;
+}
+
+.tabbed > section > h1 > label{
+  cursor              : pointer;
+     -moz-user-select : none;
+      -ms-user-select : none;
+  -webkit-user-select : none;
 }
 
 h1 {
