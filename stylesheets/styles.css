@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: red;
+  background: firebrick;
   width: 650px;
   text-align: center;
   margin-left: auto;
@@ -29,27 +29,28 @@ body {
     display: inline-block;
     padding: .5em;
     vertical-align: top;
-    background-color: #eee;
     cursor: hand;
     cursor: pointer;
 }
 .radio-tabs .tab:hover {
-    background-color: #fff;
+    background-color: yellow;
 }
+
 #episodes:checked ~ .tabs #episodes-tab,
 #about:checked ~ .tabs #about-tab {
-    background-color: #fff;
-    border-bottom: .3em solid #fff;
+ /* background-color: #fff;
+    border-bottom: .3em solid #fff; */
     cursor: default;
 }
 
 .radio-tabs .panels {
-    background-color: #fff;
+ /* background-color: #fff; */
     padding: .5em;
 }
 .radio-tabs .panel {
     display: none;
 }
+
 #episodes:checked ~ .panels #episodes-panel,
 #about:checked ~ .panels #about-panel {
     display: block;
