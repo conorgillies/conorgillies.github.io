@@ -3,8 +3,17 @@ html {
 }
 
 @font-face {
-  font-family: "Lucida Calligraphy";
-  src: url("stylesheets/fonts/Lucida-Calligraphy.ttf");
+font-family: 'Padauk';
+src: url('stylesheets/fonts/Padauk-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Padauk';
+src: url('stylesheets/fonts/Padauk-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
 }
 
 body {
