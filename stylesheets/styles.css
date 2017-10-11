@@ -23,16 +23,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: black;
-  font-family: serif;
+  font-family: "Padauk", Avant Garde, sans-serif;
 }
 .radio-tabs .state {
     position: absolute;
     left: -10000px;
 }
-#episodes:focus ~ .tabs #episodes-tab,
+/* #episodes:focus ~ .tabs #episodes-tab,
 #about:focus ~ .tabs #about-tab {
     box-shadow: 0 0 3px 3px rgba(0,127,255,.5);
-}
+} */
 
 .radio-tabs .tab {
     display: inline-block;
@@ -67,18 +67,18 @@ body {
 
 h1 {
   text-align: center;
-  text-decoration: underline;
+  font-weight: bold;
   font-size: 5vw;
-  margin: 0;
 }
 h2 {
   font-size: 4vw;
+  font-weight: bold;
 }
 h3 {
   font-family: sans-serif;
   text-align: center;
   font-size: 3vw;
-  margin: 0;
+  font-weight: bold;
 }
 h4 {
   font-family: sans-serif;
