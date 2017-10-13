@@ -25,6 +25,13 @@ body {
   color: black;
   font-family: "Padauk", Avant Garde, sans-serif;
 }
+
+.funder {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 .radio-tabs .state {
     position: absolute;
     left: -10000px;
