@@ -106,6 +106,16 @@ hr {
   margin: 0 10px 10px 0;
 }
 
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 figcaption { 
     display: block;
     font-family: sans-serif;
