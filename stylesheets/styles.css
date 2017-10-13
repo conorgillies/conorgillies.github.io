@@ -55,7 +55,8 @@ body {
 }
 
 #episodes:checked ~ .tabs #episodes-tab,
-#about:checked ~ .tabs #about-tab {
+#about:checked ~ .tabs #about-tab
+#donate:checked ~ .tabs #donate-tab {
  /* background-color: #fff;
     border-bottom: .3em solid #fff; */
     cursor: default;
@@ -70,7 +71,8 @@ body {
 }
 
 #episodes:checked ~ .panels #episodes-panel,
-#about:checked ~ .panels #about-panel {
+#about:checked ~ .panels #about-panel
+#donate:checked ~ .panels #donate-panel {
     display: block;
 }
 
