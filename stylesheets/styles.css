@@ -30,6 +30,8 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
+    width: 80px;
+    height: 80px;
 }
 
 .radio-tabs .state {
