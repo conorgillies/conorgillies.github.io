@@ -149,8 +149,8 @@ footer {
   text-align: center;
 }
 
-subs {
-  word-spacing: 3em;
+.subs {
+  word-spacing: 2em;
 }
 
 a:link    {color:blue; background-color:transparent; text-decoration:none}
