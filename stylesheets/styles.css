@@ -32,6 +32,11 @@ body {
     height: 120px;
 }
 
+.main-img {
+  width: 575px;
+	max-width: 90%;
+}
+
 .radio-tabs .state {
     position: absolute;
     left: -10000px;
