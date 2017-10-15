@@ -42,7 +42,7 @@ body {
 
 .radio-tabs .tab {
     display: inline-block;
-    padding: 0;
+    padding: .5em;
     vertical-align: top;
     cursor: hand;
     cursor: pointer;
