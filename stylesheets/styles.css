@@ -76,7 +76,7 @@ body {
 h1 {
   text-align: center;
   font-weight: bold;
-  font-size:calc(14px + 5vw);
+  font-size:calc(14px + 4vw);
 }
 h2 {
   font-size:calc(14px + 3vw);
@@ -147,6 +147,10 @@ ol {
 
 footer {
   text-align: center;
+}
+
+subs {
+  word-spacing: 3em;
 }
 
 a:link    {color:blue; background-color:transparent; text-decoration:none}
