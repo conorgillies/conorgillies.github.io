@@ -148,14 +148,6 @@ ol {
     font-size: 4vw;
 }
 
-footer {
-  border: none;
-  border-top: 4px solid black;
-  margin: 1em auto; 
-  width: 60%;
-}
-
-
 a:link    {color:blue; background-color:transparent; text-decoration:none}
 a:visited {color:blue; background-color:transparent; text-decoration:none}
 a:hover   {color:blue; background-color:yellow; text-decoration:underline}
