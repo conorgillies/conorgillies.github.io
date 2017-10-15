@@ -156,9 +156,7 @@ ol {
 }
 
 footer {
-  text-align: justify;
-  margin: 0 auto;
-  width: 100%;
+  text-align: center;
 }
 
 a:link    {color:blue; background-color:transparent; text-decoration:none}
