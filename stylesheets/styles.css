@@ -150,7 +150,7 @@ footer {
 }
 
 .centered {
-  font-size:calc(12px + 1.5vw);
+  font-size:calc(12px + 2vw);
 }
 
 a:link    {color:blue; background-color:transparent; text-decoration:none}
