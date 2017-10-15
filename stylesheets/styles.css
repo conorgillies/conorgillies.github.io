@@ -27,9 +27,7 @@ body {
 }
 
 .funder {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    float: right;
     width: 80px;
     height: 80px;
 }
