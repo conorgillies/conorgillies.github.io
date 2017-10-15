@@ -43,7 +43,7 @@ body {
 
 .radio-tabs .tab {
     display: inline-block;
-    padding: .5em;
+    padding: 0;
     vertical-align: top;
     cursor: hand;
     cursor: pointer;
@@ -62,7 +62,7 @@ body {
 
 .radio-tabs .panels {
  /* background-color: #fff; */
-    padding: .5em;
+    padding: 0;
 }
 .radio-tabs .panel {
     display: none;
