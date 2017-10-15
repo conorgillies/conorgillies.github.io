@@ -125,15 +125,6 @@ hr {
     display: table;
 }
 
-.fulljustify {
-  text-align: justify;
-}
-.fulljustify:after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-}
-
 figcaption { 
     display: block;
     font-family: sans-serif;
