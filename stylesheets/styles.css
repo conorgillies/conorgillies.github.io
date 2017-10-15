@@ -150,6 +150,10 @@ footer {
   text-align: center;
 }
 
+.centered {
+  font-size:calc(12px + 1.5vw);
+}
+
 a:link    {color:blue; background-color:transparent; text-decoration:none}
 a:visited {color:blue; background-color:transparent; text-decoration:none}
 a:hover   {color:blue; background-color:yellow; text-decoration:underline}
