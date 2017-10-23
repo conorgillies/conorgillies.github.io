@@ -155,9 +155,10 @@ ol {
 
 footer {
   text-align: center;
-  color: white;
+  color: red;
   background-color: black;
-  margin-bottom: 0px;
+  position:absolute;
+  bottom:0;
 }
 
 .subs {
