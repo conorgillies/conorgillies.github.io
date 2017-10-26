@@ -161,6 +161,9 @@ footer {
   word-spacing: 1.5em;
 }
 
+::-moz-selection { background: yellow; }
+::selection { background: yellow; }
+
 a:link    {color:blue; background-color:transparent; text-decoration:none}
 a:visited {color:blue; background-color:transparent; text-decoration:none}
 a:hover   {color:blue; background-color:yellow; text-decoration:underline}
