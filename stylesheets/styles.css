@@ -157,8 +157,12 @@ footer {
   text-align: center;
   color: red;
   background-color: black;
-  position:absolute;
-  bottom:0;
+  position: absolute;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0px;
+  right: 0px;
 }
 
 .subs {
