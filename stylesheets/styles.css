@@ -17,7 +17,7 @@ font-style: normal;
 }
 
 body {
-  background: red;
+  background: linear-gradient(352deg, red calc(112px + 16vw), bisque calc(112px + 16vw), azure calc(100% - (300px + 40vw)), red calc(100% - (300px + 40vw)));
   width: 100%;
   max-width: 650px;
   text-align: center;
@@ -25,16 +25,24 @@ body {
   margin-right: auto;
   color: black;
   font-family: "Padauk", Avant Garde, sans-serif;
+}
+
+.content {
   padding: 0.5em;
 }
 
 .funder {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .main-img {
      width: 575px;
+     max-width: 90%;
+}
+
+.ep-img {
+     width: 650px;
      max-width: 90%;
 }
 
@@ -82,27 +90,42 @@ body {
     display: block;
 }
 
+audio {
+  width: 650px;
+  max-width: 90%;
+} 
+
 h1 {
   text-align: center;
   font-weight: bold;
-  font-size:calc(14px + 4vw);
+  font-size:calc(12px + 4vw);
+  white-space: nowrap;
 }
 h2 {
-  font-size:calc(14px + 3vw);
+  font-size:calc(12px + 3vw);
   font-weight: bold;
 }
 h3 {
   text-align: center;
-  font-size:calc(14px + 2vw);
+  font-size:calc(10px + 2vw);
   font-weight: bold;
 }
 h4 {
-  font-size:calc(14px + 2vw);
+  font-size:calc(8px + 2vw);
   font-weight: normal;
 }
 p {
   text-align: left;
-  font-size:calc(14px + 2vw);
+  font-size:calc(8px + 2vw);
+}
+
+mark {
+   background-color: black;
+   color: red;
+   font-kerning: none;
+   font-family: cursive;
+   font-size: 40%;
+   letter-spacing: 5px;
 }
 
 img {
@@ -137,7 +160,7 @@ hr {
 figcaption { 
     display: block;
     font-family: sans-serif;
-    font-size: calc(12px + 1.5vw);
+    font-size: calc(6px + 1.5vw);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -147,12 +170,12 @@ ul {
     font-family: sans-serif;
     text-align:left;
     list-style-type: square;
-    font-size:calc(14px + 2vw);
+    font-size:calc(10px + 2vw);
 }
 
 ol {
     font-family: sans-serif;
-    font-size:calc(14px + 2vw);
+    font-size:calc(10px + 2vw);
 }
 
 footer {
