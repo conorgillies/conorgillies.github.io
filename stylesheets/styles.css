@@ -17,7 +17,7 @@ font-style: normal;
 }
 
 body {
-  background: linear-gradient(352deg, red calc(112px + 16vw), bisque calc(112px + 16vw), azure calc(100% - (300px + 40vw)), red calc(100% - (300px + 40vw)));
+  background: linear-gradient(352deg, red calc(112px + 16vw), bisque calc(112px + 16vw), whitesmoke calc(100% - (300px + 40vw)), red calc(100% - (300px + 40vw)));
   width: 100%;
   max-width: 650px;
   text-align: center;
