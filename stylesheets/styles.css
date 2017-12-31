@@ -3,103 +3,33 @@ html {
 }
 
 @font-face {
-font-family: 'Padauk';
-src: url('stylesheets/fonts/Padauk-Regular.ttf') format('truetype');
+font-family: 'Lucida Calligraphy';
+src: url('stylesheets/fonts/Lucida-Calligraphy.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 
-@font-face {
-font-family: 'Padauk';
-src: url('stylesheets/fonts/Padauk-Bold.ttf') format('truetype');
-font-weight: bold;
-font-style: normal;
-}
-
 body {
-  background: linear-gradient(352deg, red calc(112px + 16vw), bisque calc(112px + 16vw), whitesmoke calc(100% - (300px + 40vw)), red calc(100% - (300px + 40vw)));
+  background: black;
   width: 100%;
-  max-width: 650px;
-  text-align: center;
+  max-width: 96vw;
+  text-align: justify;
   margin-left: auto;
   margin-right: auto;
-  color: black;
-  font-family: "Padauk", Avant Garde, sans-serif;
+  color: PaleTurquoise;
+  font-family: sans-serif;
 }
 
 .content {
   padding: 0.5em;
 }
 
-.funder {
-    width: 100px;
-    height: 100px;
-}
-
-.main-img {
-     width: 575px;
-     max-width: 90%;
-}
-
-.ep-img {
-     width: 650px;
-     max-width: 90%;
-}
-
-.radio-tabs .state {
-    position: absolute;
-    left: -10000px;
-}
-/* #episodes:focus ~ .tabs #episodes-tab,
-#about:focus ~ .tabs #about-tab {
-    box-shadow: 0 0 3px 3px rgba(0,127,255,.5);
-} */
-
-.radio-tabs .tab {
-    display: inline-block;
-    padding: .5em;
-    vertical-align: top;
-    cursor: hand;
-    cursor: pointer;
-}
-.radio-tabs .tab:hover {
-    background-color: yellow;
-}
-
-#episodes:checked ~ .tabs #episodes-tab,
-#readings:checked ~ .tabs #readings-tab,
-#about:checked ~ .tabs #about-tab,
-#donate:checked ~ .tabs #donate-tab {
- /* background-color: #fff;
-    border-bottom: .3em solid #fff; */
-    cursor: default;
-}
-
-.radio-tabs .panels {
- /* background-color: #fff; */
-    padding: 0;
-}
-.radio-tabs .panel {
-    display: none;
-}
-
-#episodes:checked ~ .panels #episodes-panel,
-#readings:checked ~ .panels #readings-panel,
-#about:checked ~ .panels #about-panel,
-#donate:checked ~ .panels #donate-panel {
-    display: block;
-}
-
-audio {
-  width: 650px;
-  max-width: 90%;
-} 
-
 h1 {
-  text-align: center;
+  text-align: justify;
   font-weight: bold;
   font-size:calc(12px + 4vw);
   white-space: nowrap;
+  font-family: "Lucida Calligraphy", cursive;
 }
 h2 {
   font-size:calc(12px + 3vw);
@@ -120,11 +50,11 @@ p {
 }
 
 mark {
-   background-color: black;
-   color: red;
+   background-color: red;
+   color: black;
    font-kerning: none;
    font-family: cursive;
-   font-size: 40%;
+   font-size: 90%;
    letter-spacing: 5px;
 }
 
