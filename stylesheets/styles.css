@@ -308,6 +308,46 @@ p.index {
  line-height: 200%;
 }
 
+/*----------------------------------*/
+/* Radio panels                     */
+/*----------------------------------*/
+
+
+.radio-tabs .state {
+    position: absolute;
+    left: -10000px;
+}
+
+.radio-tabs .tab {
+    display: inline-block;
+    padding: .5em;
+    vertical-align: top;
+    cursor: hand;
+    cursor: pointer;
+}
+.radio-tabs .tab:hover {
+    background-color: lightblue;
+}
+
+#about:checked ~ .tabs #about-tab,
+#resources:checked ~ .tabs #resources-tab,
+ {
+    cursor: default;
+}
+
+.radio-tabs .panels {
+ /* background-color: #fff; */
+    padding: 0;
+}
+.radio-tabs .panel {
+    display: none;
+}
+
+#about:checked ~ .panels #about-panel,
+#resources:checked ~ .panels #resources-panel {
+    display: block;
+}
+
 
 /*----------------------------------*/
 /* Table elements 					*/
