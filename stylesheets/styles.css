@@ -1,5 +1,5 @@
 
-body { background : #A90017 }
+body { background : dimgray }
 a:link { color: #A90017; background: transparent }
 a:visited { color: #FF0000; background: transparent }
 a.title:link { color: #A90017; background: transparent; text-decoration: none }
@@ -9,6 +9,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 90%;
 }
 
 /* Basic p */
@@ -37,10 +38,10 @@ p.title {
 /* For the border effect */
 div.border {
 	border-style: double;
-	background: #ffffff; 
+	background: navajowhite; 
 	width: 93%; 
 	padding: 1em; 
-	border: 0.5em solid #eecc00;
+	border: 0.5em solid #A90017;
 	}
 	
 img.right { float: right; margin: 2em; }
