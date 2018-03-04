@@ -313,6 +313,10 @@ p.index {
 /*----------------------------------*/
 
 
+.tabs {
+    text-align: center;
+}
+
 .radio-tabs .state {
     position: absolute;
     left: -10000px;
