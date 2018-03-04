@@ -607,7 +607,5 @@ p.footer {
   h4 { font-size: 13pt; }
   h5 { margin-left: 1%; }
   h6 { margin-left: 1%; }
-  img { width: 150px; height: auto; }
-  img.auto {width: auto ; height: auto; }
-  div.border { width: 95%; padding: 0.5em; border: 0.2em solid #eecc00; }
+  div.border { width: 95%; padding: 0.5em; border: 0.2em solid #A90017; }
 }
