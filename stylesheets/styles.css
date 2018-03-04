@@ -5,6 +5,12 @@ a:visited { color: #FF0000; background: transparent }
 a.title:link { color: #A90017; background: transparent; text-decoration: none }
 a.title:visited { color: #FF0000; background: transparent; text-decoration: none }
 
+img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Basic p */
 p {
  text-indent: 0em;
