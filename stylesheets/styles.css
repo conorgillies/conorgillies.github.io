@@ -22,6 +22,11 @@ p {
  margin-left: 6%;
  margin-right: 6%;
  }
+
+/* image caption */
+figcaption {
+ text-align: center;
+}
  
 
 /* Path to the document */
