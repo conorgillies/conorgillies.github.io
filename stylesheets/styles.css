@@ -25,6 +25,7 @@ p {
 
 /* image caption */
 figure {
+  max-width: 600px;
   border: thin dimgray solid;
   margin: 0.5em;
   padding: 0.5em;
