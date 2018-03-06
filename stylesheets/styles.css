@@ -24,6 +24,12 @@ p {
  }
 
 /* image caption */
+figure {
+  border: thin dimgray solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
 figcaption {
  text-align: center;
 }
